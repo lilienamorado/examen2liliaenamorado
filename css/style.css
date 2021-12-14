@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"');
+
+body{
+font-family: 'Catamaran';
+	font-size: 14px;
+	color: #808080;	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+header{
+	background-color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
+
+#hero-slides .btn{
+	border-radius: 30px;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	
+}
+
+
+#hero-slides .btn:hover{
+	background-color:var(--color-negro);
+	color: #fff;
+	border-color: #000;
+	border: 1px solid #000;
+}
+
+#hero-slides h5{
+	font-size: 100px;
+	font-weight: 700;
+}
+
+#hero-slides p{
+	font-size: 25px;
+	
+}
+
+#intro{
+	text-align: center;
+	padding: 30px;
+
+}
+
+#intro h4{
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	padding-top: 30px;
+	color: var(--color-negro);
+	font-weight:700;
+}
+
+#intro p{
+	text-align: center;
+	font-size: 15px;
+}
+
+#services{
+	text-align: center;
+	padding: 30px;
+
+}
+
+#services h4{
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	padding-top: 30px;
+	color: var(--color-negro);
+	font-weight:700;
+}
+
+#services p{
+	text-align: center;
+	font-size: 15px;
+}
+
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+	padding: 12% 0;
+	text-align: center;
+}
+
+#cta h1{
+	font-size: 70px;
+	font-weight: 700;
+
+}
+
+#cta p {
+font-size: 20px;
+}
+
+#cta .btn{
+	border-radius: 30px;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	
+}
+
+
+#cta .btn:hover{
+	background-color:var(--color-negro);
+	color: #fff;
+	border-color: #000;
+	border: 1px solid #000;
+}
+
+#clients{
+	text-align: center;
+	padding: 30px;	
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+	
+}
